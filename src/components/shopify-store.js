@@ -14,6 +14,7 @@ const ShopifyStore = (props) => {
       const ui = ShopifyBuy.UI.init(client)
 
       client.product.fetchAll().then((products) => {
+        console.log(`🚀 ~ client.product.fetchAll ~ products:`, JSON.stringify(products, null, 2))
         const productIds = products.map((product) => product.id.split('Product/').pop())
         ui.createComponent('productSet', {
           id: productIds,
