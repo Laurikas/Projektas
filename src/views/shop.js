@@ -80,9 +80,6 @@ const Shop = (props) => {
                   
 
 
-
-
-
                 </span>
             </div>
             <div className="shop-footer">
