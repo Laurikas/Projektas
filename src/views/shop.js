@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import "./shop.css";
+import ShopifyStore from "../components/shopify-store"
 
 const Shop = (props) => {
     return (
@@ -76,11 +77,8 @@ const Shop = (props) => {
                         <br></br>
                     </h3>
                 </div>
-                <span className="shop-text15">
-                  
 
-
-                </span>
+                <ShopifyStore />
             </div>
             <div className="shop-footer">
                 <div className="max-width-container">
