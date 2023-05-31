@@ -26,7 +26,6 @@ const ShopifyStore = (props) => {
   }, [])
 
   const handleCollectionClick = (selectedCollection) => {
-    document.removeChild('products-list')
     const productIds = selectedCollection.products.map((product) => product.id.split('Product/').pop())
     ui.createComponent('productSet', {
       id: productIds,
