@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PastedImg from '../playground_assets/pastedimage-f4k4-200h.png'
 
 import { Helmet } from "react-helmet";
 
@@ -32,7 +33,7 @@ const AboutUs = (props) => {
               <Link to="/" className="about-us-navlink">
                 <img
                   alt="pastedImage"
-                  src="/playground_assets/pastedimage-f4k4-200h.png"
+                  src={PastedImg}
                   className="about-us-pasted-image navbar-logo-title"
                 />
               </Link>

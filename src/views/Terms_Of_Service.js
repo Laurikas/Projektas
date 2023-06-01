@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { Helmet } from "react-helmet";
+import PastedImg from '../playground_assets/pastedimage-f4k4-200h.png'
 
 import "./Terms_Of_Service.css";
 
@@ -40,7 +41,7 @@ const Terms_Of_Service = (props) => {
                             <Link to="/" className="TOS-navlink">
                                 <img
                                     alt="pastedImage"
-                                    src="/playground_assets/pastedimage-f4k4-200h.png"
+                                    src={PastedImg}
                                     className="TOS-pasted-image navbar-logo-title"
                                 />
                             </Link>

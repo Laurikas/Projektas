@@ -7,6 +7,18 @@ import SectionHeading from '../components/section-heading'
 import CategoryCard from '../components/category-card'
 import ItemCard from '../components/item-card'
 import './home.css'
+import PastedImg from '../playground_assets/pastedimage-f4k4-200h.png'
+import AmberWithInsectsImg from '../playground_assets/amber with insects-1500w.png'
+import PrayerBeads from '../playground_assets/prayer beads-1500w.jpg'
+import Pendants from '../playground_assets/pendant-1500w.jpg'
+import PendantsWithInsects from '../playground_assets/pendant insect-1500w.jpg'
+import SpheresWithInsects from '../playground_assets/sphere with insect-1500w.jpg'
+import Stones from '../playground_assets/stone-1500w.jpg'
+import AmberHeartPendant from '../playground_assets/pendant2-1500w.jpg'
+import AmberKeychain from '../playground_assets/key chain-1500w.jpg'
+import MosaicBracelet from '../playground_assets/bracelet-1500w.jpg'
+import IslamicPrayerBead from '../playground_assets/prayer bead recommended-1500w.jpg'
+import AmberCrossPendant from '../playground_assets/cross pendant-1500w.jpg'
 
 
 const Home = (props) => {
@@ -41,7 +53,7 @@ const Home = (props) => {
                 <Link to="/" className="home-navlink">
                   <img
                     alt="pastedImage"
-                    src="/playground_assets/pastedimage-f4k4-200h.png"
+                    src={PastedImg}
                     className="home-pasted-image navbar-logo-title"
                   />
                 </Link>
@@ -87,27 +99,27 @@ const Home = (props) => {
             <div className="home-cards-container">
               <CategoryCard
                 name="Amber With Insects"
-                category_img="/playground_assets/amber%20with%20insects-1500w.png"
+                category_img={AmberWithInsectsImg}
               ></CategoryCard>
               <CategoryCard
                 name="Prayer Beads"
-                category_img="/playground_assets/prayer%20beads-1500w.jpg"
+                category_img={PrayerBeads}
               ></CategoryCard>
               <CategoryCard
                 name="Pendants"
-                category_img="/playground_assets/pendant-1500w.jpg"
+                category_img={Pendants}
               ></CategoryCard>
               <CategoryCard
                 name="Pendants With Insects"
-                category_img="/playground_assets/pendant%20insect-1500w.jpg"
+                category_img={PendantsWithInsects}
               ></CategoryCard>
               <CategoryCard
                 name="Spheres With Insects"
-                category_img="/playground_assets/sphere%20with%20insect-1500w.jpg"
+                category_img={SpheresWithInsects}
               ></CategoryCard>
               <CategoryCard
                 name="Stones"
-                category_img="/playground_assets/stone-1500w.jpg"
+                category_img={Stones}
               ></CategoryCard>
             </div>
           </div>
@@ -149,7 +161,7 @@ const Home = (props) => {
                 <ItemCard
                   name="Amber Heart Pendant"
                   value="10.07"
-                  image_src="/playground_assets/pendant2-1500w.jpg"
+                  image_src={AmberHeartPendant}
                   rootClassName="rootClassName4"
                 ></ItemCard>
               </div>
@@ -159,7 +171,7 @@ const Home = (props) => {
                     <ItemCard
                       name="Amber Keychain"
                       value="46.07"
-                      image_src="/playground_assets/key%20chain-1500w.jpg"
+                      image_src={AmberKeychain}
                       rootClassName="rootClassName2"
                     ></ItemCard>
                   </div>
@@ -167,7 +179,7 @@ const Home = (props) => {
                     <ItemCard
                       name="Mosaic Bracelet"
                       value="19.07"
-                      image_src="/playground_assets/bracelet-1500w.jpg"
+                      image_src={MosaicBracelet}
                       rootClassName="rootClassName3"
                     ></ItemCard>
                   </div>
@@ -177,7 +189,7 @@ const Home = (props) => {
                     <ItemCard
                       name="Islamic Prayer Bead"
                       value="278.94"
-                      image_src="/playground_assets/prayer%20bead%20recommended-1500w.jpg"
+                      image_src={IslamicPrayerBead}
                       rootClassName="item-card-root-class-name1"
                     ></ItemCard>
                   </div>
@@ -185,7 +197,7 @@ const Home = (props) => {
                     <ItemCard
                       name="Amber Cross Pendant"
                       value="12.32"
-                      image_src="/playground_assets/cross%20pendant-1500w.jpg"
+                      image_src={AmberCrossPendant}
                       rootClassName="item-card-root-class-name6"
                     ></ItemCard>
                   </div>
