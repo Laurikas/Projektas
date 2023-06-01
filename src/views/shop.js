@@ -78,7 +78,7 @@ const Shop = (props) => {
                     </h3>
                 </div>
 
-                <ShopifyStore />
+                <div className="shop-text15"><ShopifyStore /></div>
             </div>
             <div className="shop-footer">
                 <div className="max-width-container">
