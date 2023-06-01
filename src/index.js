@@ -11,7 +11,7 @@ import Shop from './views/shop'
 import Return from './views/return-policy'
 import Terms_Of_Service from './views/Terms_Of_Service'
 
-
+console.log('test')
 const App = () => {
   return (
     <Router>
