@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Projektas/static/css/main.d52d3358.css",
-    "main.js": "/Projektas/static/js/main.2f45ab61.js",
+    "main.js": "/Projektas/static/js/main.6c5ade4c.js",
     "index.html": "/Projektas/index.html",
     "main.d52d3358.css.map": "/Projektas/static/css/main.d52d3358.css.map",
-    "main.2f45ab61.js.map": "/Projektas/static/js/main.2f45ab61.js.map"
+    "main.6c5ade4c.js.map": "/Projektas/static/js/main.6c5ade4c.js.map"
   },
   "entrypoints": [
     "static/css/main.d52d3358.css",
-    "static/js/main.2f45ab61.js"
+    "static/js/main.6c5ade4c.js"
   ]
 }
