@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/Projektas/static/css/main.e76edf1d.css",
-    "main.js": "/Projektas/static/js/main.b612640b.js",
-    "static/media/cross pendant-1500w.jpg": "/Projektas/static/media/cross pendant-1500w.72a6e819de42acfe1814.jpg",
-    "static/media/key chain-1500w.jpg": "/Projektas/static/media/key chain-1500w.0506aa4a9df5680d86f3.jpg",
-    "static/media/stone-1500w.jpg": "/Projektas/static/media/stone-1500w.db4666593569dd4ce8f5.jpg",
-    "static/media/bracelet-1500w.jpg": "/Projektas/static/media/bracelet-1500w.c322d2592a5cee490e18.jpg",
-    "static/media/pendant2-1500w.jpg": "/Projektas/static/media/pendant2-1500w.8bb24f48bd25d7b8d476.jpg",
-    "static/media/prayer beads-1500w.jpg": "/Projektas/static/media/prayer beads-1500w.8be45e9ab5fb2899b613.jpg",
-    "static/media/amber with insects-1500w.png": "/Projektas/static/media/amber with insects-1500w.13e337114ae3bc8feb44.png",
-    "static/media/pendant insect-1500w.jpg": "/Projektas/static/media/pendant insect-1500w.3fef22c90add72fccc00.jpg",
-    "static/media/prayer bead recommended-1500w.jpg": "/Projektas/static/media/prayer bead recommended-1500w.c34ee9bb2dc2a5fcf559.jpg",
-    "static/media/pastedimage-f4k4-200h.png": "/Projektas/static/media/pastedimage-f4k4-200h.f62a03fb9abac1586e38.png",
-    "index.html": "/Projektas/index.html",
-    "main.e76edf1d.css.map": "/Projektas/static/css/main.e76edf1d.css.map",
-    "main.b612640b.js.map": "/Projektas/static/js/main.b612640b.js.map"
+    "main.css": "/projektas/static/css/main.c4c5248e.css",
+    "main.js": "/projektas/static/js/main.c4128df5.js",
+    "index.html": "/projektas/index.html",
+    "main.c4c5248e.css.map": "/projektas/static/css/main.c4c5248e.css.map",
+    "main.c4128df5.js.map": "/projektas/static/js/main.c4128df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e76edf1d.css",
-    "static/js/main.b612640b.js"
+    "static/css/main.c4c5248e.css",
+    "static/js/main.c4128df5.js"
   ]
 }
