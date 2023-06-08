@@ -41,7 +41,7 @@ const Home = (props) => {
                 <Link to="/" className="home-navlink">
                   <img
                     alt="pastedImage"
-                    src="/playground_assets/pastedimage-f4k4-200h.png"
+                    src="/playground_assets/coveriukas2.jpg"
                     className="home-pasted-image navbar-logo-title"
                   />
                 </Link>
@@ -66,12 +66,14 @@ const Home = (props) => {
             <span>Natural Baltic Amber Products</span>
             <br></br>
           </h1>
+          <a href="shop">
           <button className="home-button button">
             <span>
               <span className="home-text18">Shop Now</span>
               <br></br>
             </span>
           </button>
+          </a>
         </div>
         <div className="section-container column">
           <div className="max-width-container">
@@ -205,7 +207,7 @@ const Home = (props) => {
               <span className="home-text32">
                 <span>info@amber-us.com</span>
                 <br></br>
-              </span>
+                </span>
             </div>
             <div className="home-links-container">
               <div className="home-container08">
@@ -219,7 +221,9 @@ const Home = (props) => {
               </div>
               <div className="home-container09">
                 <span className="home-text42">Company</span>
-                <span className="home-text43">Shop</span>
+                <Link to="/shop" className="home-navlink2">
+                  Shop
+                </Link>
                 <Link to="/about-us" className="home-navlink2">
                   About Us
                 </Link>

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import './shopify-store.css';
 
 const STORE_CREDS = {
   domain: '9fe52e.myshopify.com',
@@ -27,6 +28,8 @@ const ShopifyStore = (props) => {
 
   const handleCollectionClick = (selectedCollection) => {
     const productIds = selectedCollection.products.map((product) => product.id.split('Product/').pop())
+    const productsList = document.getElementById('products-list');
+    productsList.innerHTML = '';
     ui.createComponent('productSet', {
       id: productIds,
       node: document.getElementById('products-list'),
@@ -285,8 +288,8 @@ const ShopifyStore = (props) => {
 
   return (
     <div>
-      <div style={{ display: 'grid' }}>
-        {collections && collections.map((col, index) => (<button onClick={() => handleCollectionClick(col)} key={index}>{col.title}</button>))}
+      <div className="category-button-container">
+        {collections && collections.map((col, index) => (<button className="category-button" onClick={() => handleCollectionClick(col)} key={index}>{col.title}</button>))}
       </div>
       <div id="products-list"></div>
     </div>
